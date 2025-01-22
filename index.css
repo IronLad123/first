@@ -27,7 +27,7 @@ body {
   height: 5px;
   border-radius: 50%;
   background-color: white;
-  animation: bounce 10.5s infinite linear;
+  animation: bounce2 10.5s infinite linear;
 }
 
 @keyframes bounce {
@@ -46,6 +46,29 @@ body {
   90% {
     top: 0;
     left: calc(100vw - 50px);
+  }
+  100% {
+    top: 0;
+    left: 0;
+  }
+}
+@keyframes bounce2 {
+  0% {
+    top: 0;
+    left: 0;
+  }
+  25% {
+    top: calc(100vh - 50px);
+    left: calc(100vw - 50px);
+  }
+  50% {
+    top: 0;
+    left: calc(100vw - 50px);
+  }
+  90% {
+     top: calc(100vh - 50px);
+    left: 0;
+   
   }
   100% {
     top: 0;
