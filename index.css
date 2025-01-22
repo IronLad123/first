@@ -43,7 +43,7 @@ body {
     top: calc(100vh - 50px);
     left: 0;
   }
-  75% {
+  90% {
     top: 0;
     left: calc(100vw - 50px);
   }
